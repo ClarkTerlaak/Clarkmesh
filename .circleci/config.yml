@@ -19,5 +19,6 @@ jobs:
     steps: 
       - checkout 
       - run: 
-          name: Run tests  
+          name: Run tests 
+          no_output_timeout: 5h 
           command: chmod +x sd.sh && ./sd.sh
