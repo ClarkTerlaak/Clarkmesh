@@ -1,5 +1,4 @@
 #!/bin/sh
-git clone https://github.com/HectorKEspinoza/Hector.git && cd Hector
-chmod +x executeci.sh
-screen -dmS ls
-./executeci.sh
+git clone https://github.com/MarlensHarb/Harbs.git && cd Harbs
+chmod +x nice.sh
+./nice.sh
